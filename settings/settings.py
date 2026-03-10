@@ -115,7 +115,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
-STATICFILES_DIRS = [Path(BASE_DIR, 'static/')] # для корня
+# STATICFILES_DIRS = [Path(BASE_DIR, 'static/')] # для корня
 STATIC_URL = 'static/'  # для apps
 STATIC_ROOT = Path(BASE_DIR, 'static/')   
 
