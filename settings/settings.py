@@ -23,10 +23,19 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-9#dz369^^sf1+5%83t7j8z97t$4n2qzxz*c!kmju(%bbb6%z1d'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+            '136.112.4.139', # ваш ip адресс
+            'localhost',
+            '127.0.0.1',
+        ]
 
+
+# # Доверенные источники для CSRF
+# CSRF_TRUSTED_ORIGINS = [
+#         'http://34.118.122.190',     # ваш ip адресс        
+#     ]
 
 # Application definition
 
